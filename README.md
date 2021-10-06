@@ -6,8 +6,8 @@
 
 ### 此方法不止在uniapp中可以使用，在所有H5项目中都可以
 
->>> 关于sdk怎么修改的我就不多说了，想了解的自己看源码，简单描述一句就是把sdk内使用的wx对象重写，替换了里面的request方法，使用vue-jsonp完成跨域
->>> 修改后的源码在 common目录下的 qqmap-wx-jssdk.js 中
+> 关于sdk怎么修改的我就不多说了，想了解的自己看源码，简单描述一句就是把sdk内使用的wx对象重写，替换了里面的request方法，使用vue-jsonp完成跨域
+> 修改后的源码在 common目录下的 qqmap-wx-jssdk.js 中
 
 ## 运行示例代码请务必先替换示例代码中的sdk key
 ## 没有key的先在腾讯地图开发者后台申请一个，免费的不要钱：https://lbs.qq.com/dev/console/application/mine
