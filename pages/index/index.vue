@@ -2,7 +2,7 @@
 	<view class="content">
 		<view >
 			<input class="uni-input" placeholder="输入纬度" v-model="lat" />
-			<input class="uni-input" placeholder="输入经度" v-model="lat" />
+			<input class="uni-input" placeholder="输入经度" v-model="lon" />
 			<button @click="reverseGeocoder" style="width: 750rpx;">转化</button>
 			<view>位置：{{remark}}</view>
 		</view>
